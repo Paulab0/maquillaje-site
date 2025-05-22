@@ -1,0 +1,63 @@
+/* estilos.css */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fff8f5;
+  color: #333;
+}
+
+header {
+  background-color: #f08bb2;
+  color: white;
+  padding: 1em;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+main {
+  padding: 2em;
+}
+
+footer {
+  text-align: center;
+  padding: 1em;
+  background-color: #f08bb2;
+  color: white;
+}
+
+form label {
+  display: block;
+  margin-top: 1em;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 0.5em;
+  margin-top: 0.5em;
+}
+
+button {
+  margin-top: 1em;
+  padding: 0.5em 1em;
+  background-color: #f08bb2;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
